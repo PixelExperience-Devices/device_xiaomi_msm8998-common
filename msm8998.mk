@@ -356,10 +356,6 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qcom.sh
 
-# Recovery
-PRODUCT_PACKAGES += \
-    librecovery_updater_xiaomi
-
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.0.vendor \
