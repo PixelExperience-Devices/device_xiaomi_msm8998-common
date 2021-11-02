@@ -86,6 +86,7 @@ PRODUCT_CHARACTERISTICS := nosdcard
 # Always preopt extracted APKs to prevent extracting out of the APK
 # for gms modules.
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+USE_DEX2OAT_DEBUG := false
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
