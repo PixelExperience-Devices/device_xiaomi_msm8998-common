@@ -187,6 +187,11 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
     android.hardware.drm@1.1.vendor
 
+# Dynamic Partitions
+PRODUCT_BUILD_SUPER_PARTITION := false
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
+
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.xiaomi
@@ -336,6 +341,7 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
+    fstab.qcom_ramdisk \
     fstab.qcom \
     init.fingerprint.rc \
     init.qcom.rc \
