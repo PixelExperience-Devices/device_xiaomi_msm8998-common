@@ -1,2 +1,5 @@
 # DPM
 persist.vendor.dpm.feature=1
+
+# Time services
+persist.timed.enable=true
