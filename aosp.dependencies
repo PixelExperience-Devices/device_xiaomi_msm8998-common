@@ -1,0 +1,19 @@
+[
+  {
+    "repository": "kernel_xiaomi_msm8998",
+    "target_path": "kernel/xiaomi/msm8998",
+    "branch": "thirteen"
+  },
+  {
+    "repository" : "vendor_xiaomi_msm8998-common",
+    "target_path": "vendor/xiaomi/msm8998-common",
+    "branch": "thirteen",
+    "remote": "pixel-devices-blobs"
+  },
+  {
+    "repository": "hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch": "thirteen",
+    "remote": "pixel"
+  }
+]
